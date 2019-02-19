@@ -28,7 +28,7 @@ class Pokemon
     results[0]
   end
   
-  def alter_hp(hp)
+  def alter_hp(hp, db)
     
   end
   
