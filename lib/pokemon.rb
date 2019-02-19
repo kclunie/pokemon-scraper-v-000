@@ -28,4 +28,8 @@ class Pokemon
     results[0]
   end
   
+  def alter_hp
+    
+  end
+  
 end
