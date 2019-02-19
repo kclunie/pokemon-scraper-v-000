@@ -22,7 +22,7 @@ class Pokemon
 
     results = result_set.collect do |row|
       pokemon = Pokemon.new(name: row[1], type: row[2], db: db, id: id)
-     # pokemon.hp = row[3]
+      pokemon.hp = row[3]
       pokemon
     end
     results[0]
